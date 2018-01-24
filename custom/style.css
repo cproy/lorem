@@ -1,0 +1,53 @@
+#feature {
+  width: 70%;
+  float: left;
+}
+
+#issue {
+  width: 30%;
+  float: left;
+}
+
+main {
+  overflow: auto;
+}
+
+#feature img {
+  float: left;
+  margin-right: 1em;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer li {
+  width: 25%;
+  float: left;
+  list-style: none;
+
+}
+footer{
+  overflow: auto;
+}
+
+header {
+  margin: 0;
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+  
+}
+
+footer ul{
+  margin: 0;
+
+}
+
+header,footer{
+  background: #eeeeee;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
