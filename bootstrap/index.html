@@ -2,38 +2,39 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <title>Lorem News</title>
   </head>
-  <body>
-    <header>
+  <body class="container-fluid">
+    <header class="jumbotron text-center py-3">
       <h1>Lorem News</h1>
       <time datetime="2018-01-22">January 22, 2018</time>
     </header>
-    <main>
-      <article>
+    <main class="row">
+      <article class="col-md-8">
         <h2>Featured Story headline</h2>
-        <img src="http://via.placeholder.com/200x200">
+        <img src="http://via.placeholder.com/200x200" class="float-left mr-3">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sapien est, dignissim vitae sem eu, accumsan tempus ante. Morbi vulputate fermentum mi quis viverra. Vivamus tellus metus, posuere nec purus eget, convallis semper odio. Quisque feugiat viverra augue id pharetra. Mauris ut leo commodo quam tempor ullamcorper. Mauris vitae quam in purus pretium ullamcorper. Donec id dapibus quam, sit amet molestie quam. Praesent aliquam felis sit amet massa gravida tincidunt.</p>
         <p>Nunc volutpat condimentum diam, ut lacinia neque malesuada eu. Fusce imperdiet eget est at hendrerit. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Etiam ullamcorper magna dolor, non mattis nisi scelerisque vel. Integer elit nunc, dignissim eget elementum tempus, aliquet quis mi. Vestibulum a nulla at mauris fringilla ultricies nec dapibus lacus. Quisque quis congue neque, id dignissim augue. Curabitur sollicitudin et massa quis accumsan. Integer auctor efficitur libero eu molestie. Ut sapien nisl, lacinia at ultricies id, rhoncus sed quam.</p>
       </article>
-      <nav>
+      <nav class="col-md-4">
         <h2>This Issue</h2>
-        <ul>
-          <li><a href="#">Duis vel nulla vel purus vestibulum euismod eu sed orci.</li>
-          <li><a href="#">Ut egestas sem non ornare auctor.</li>
-          <li><a href="#">Suspendisse pharetra nisi at diam vehicula, vehicula vestibulum sapien accumsan.</li>
-          <li><a href="#">Morbi auctor magna sit amet diam rutrum facilisis.</li>
+        <ul class="list-group">
+          <li class="list-group-item"><a href="#">Duis vel nulla vel purus vestibulum euismod eu sed orci.</li>
+          <li class="list-group-item"><a href="#">Ut egestas sem non ornare auctor.</li>
+          <li class="list-group-item"><a href="#">Suspendisse pharetra nisi at diam vehicula, vehicula vestibulum sapien accumsan.</li>
+          <li class="list-group-item"><a href="#">Morbi auctor magna sit amet diam rutrum facilisis.</li>
         </ul>
       </nav>
 
     </main>
-    <footer>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Issues</a></li>
-        <li><a href="#">Contact</a></li>
+    <footer class="jumbotron text-center py-3 fixed-bottom">
+      <ul class="row list-unstyled mb-0">
+        <li class="col"><a href="#">Home</a></li>
+        <li class="col"><a href="#">About</a></li>
+        <li class="col"><a href="#">Issues</a></li>
+        <li class="col"><a href="#">Contact</a></li>
       </ul>
     </footer>
   </body>
